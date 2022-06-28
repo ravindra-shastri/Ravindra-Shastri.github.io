@@ -7,7 +7,7 @@ export default class Navbar extends React.Component {
       <header>
         <div className="header-container">
           <nav>
-            <NavLink className="resume" to="/">RS</NavLink>
+            <NavLink className="logo" to="/">RS</NavLink>
           </nav>
 
           <nav className="nav-link-container">

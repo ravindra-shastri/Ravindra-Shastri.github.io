@@ -20,16 +20,16 @@ export default class Home extends React.Component {
               I am sharpening my web development skills
               by building websites<br /> and applications.
             </p>
-          </div>
-          <div className="about-item">
-            <img className="about-img" src="assets/media/self.jpg" alt="img" />
-          </div>
-        </div>
-        <nav className="nav-bar">
+            <nav className="nav-bar">
           <a href="https://twitter.com/ravindrashast13"><i className="fab fa-twitter"></i></a>
           <a href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/"><i className="fab fa-linkedin-in"></i></a>
           <a href="Ravindra-Shastri.github.com"><i className="fab fa-github"></i></a>
         </nav>
+          </div>
+          <div className="about-item">
+            <img className="about-img" src="assets/media/R-Shastri.jpg" alt="img" />
+          </div>
+        </div>
       </>
     )
   }

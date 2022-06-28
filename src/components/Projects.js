@@ -24,118 +24,94 @@ export default class Projects extends React.Component {
             </div>
             <div className="projects-link">
               <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
+                <img className="img" src="assets/media/github-battle.jpg" alt="" />
                 <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
+                  <a className="live-link" href="https://github.com/ravindra-shastri/Github-battle">Source</a>
+                  <a className="live-link" href="https://github-battle-two.vercel.app/">Demo</a>
                 </div>
-                <p>Projects name</p>
+                <p>Github-battle</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/quiz.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://github.com/ravindra-shastri/Quiz-App">Source</a>
+                  <a className="live-link" href="https://quiz-app-chi-one.vercel.app/">Demo</a>
+                </div>
+                <p>Quiz-App</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/blog.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://github.com/ravindra-shastri/Blog-App">Source</a>
+                  <a className="live-link" href="https://blog-app-six-tawny.vercel.app/">Demo</a>
+                </div>
+                <p>Blog-App</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/shop-cart.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://github.com/ravindra-shastri/TA-FRONTEND-state-and-forms-TRaaab/tree/block-BRaabw/block-BRaabw/code/shopping-cart">Source</a>
+                </div>
+                <p>Shopping-cart</p>
               </div>
               <div className="box">
                 <img className="img" src="assets/media/img1.jpg" alt="" />
                 <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
+                  <a className="live-link" href="https://github.com/ravindra-shastri/TA-AC-BACKEND-express-with-mongo-checkpoint-02-TNaaam">Source</a>
                 </div>
-                <p>Projects name</p>
+                <p>Checkpoint-2 express-with-mongo</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/Timer.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://timer-app-rho.vercel.app/">Source</a>
+                  <a className="live-link" href="https://github.com/ravindra-shastri/Timer-App">Demo</a>
+                </div>
+                <p>Timer-App</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/monthly-activity.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://github.com/ravindra-shastri/Monthly-Activity-Tracker">Source</a>
+                  <a className="live-link" href="https://monthly-activity-tracker.vercel.app/">Demo</a>
+                </div>
+                <p>Monthly-Activity-Tracker</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/img6.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://ravindra-shastri.github.io/TA-STYLE-background-and-gradients-THaaag/block-BHaabu/index.html">Source</a>
+                </div>
+                <p>background-and-gradient</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/img14.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://ravindra-shastri.github.io/checkpoint-4">Source</a>
+                </div>
+                <p>checkpoint-4 HTML/CSS</p>
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/img10.jpg" alt="" />
+                <div className="link-box">
+                  <a className="live-link" href="https://ravindra-shastri.github.io/Checkpoint---3/">Source</a>
+                </div>
+                <p>Checkpoint---3 HTML/CSS</p>
               </div>
               <div className="box">
                 <img className="img" src="assets/media/img1.jpg" alt="" />
                 <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
+                  <a className="live-link" href="https://ravindra-shastri.github.io/block-BHaaaw/index.html">Source</a>
                 </div>
-                <p>Projects name</p>
+                <p>Box-Nodel HTML/CSS</p>
               </div>
               <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
+                <img className="img" src="assets/media/img5.jpg" alt="" />
                 <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
+                  <a className="live-link" href="https://ravindra-shastri.github.io/checkpoint-2/">Source</a>
                 </div>
-                <p>Projects name</p>
+                <p>checkpoint-2 HTML/CSS</p>
               </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <div className="link-box">
-                  <a className="live-link">github link</a>
-                  <a className="live-link">Live link</a>
-                </div>
-                <p>Projects name</p>
-              </div>
-
             </div>
           </div>
         </div>
@@ -143,31 +119,3 @@ export default class Projects extends React.Component {
     );
   }
 }
-
-
-/* <div className="btn-style">
-                <img className="img" src="assets/media/img1.jpg" alt="" />
-                <a className="bt" href="https://ravindra-shastri.github.io/block-BHaaaw/index.html">link</a>
-              </div>
-              <img className="img" src="assets/media/img5.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/checkpoint-2/">link</a>
-              <img className="img" src="assets/media/img6.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/TA-STYLE-background-and-gradients-THaaag/block-BHaabu/index.html">link</a>
-              <img className="img" src="assets/media/img8.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io">link</a>
-              <img className="img" src="assets/media/img9.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io">link</a>
-              <img className="img" src="assets/media/img10.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/Checkpoint---3/">link</a>
-              <img className="img" src="assets/media/img11.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/">link</a>
-              <img className="img" src="assets/media/img14.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/checkpoint-4">link</a>
-              <img className="img" src="assets/media/img15.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/">link</a>
-              <img className="img" src="assets/media/img16.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/">link</a>
-              <img className="img" src="assets/media/img17.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/">link</a>
-              <img className="img" src="assets/media/img18.jpg" alt="" />
-              <a className="btn" href="https://ravindra-shastri.github.io/">link</a> */

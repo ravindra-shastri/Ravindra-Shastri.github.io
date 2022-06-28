@@ -10,7 +10,7 @@ export default class Resume extends React.Component {
             <p> FULL STACK DEVELOPER</p>
           </div>
           <div className="">
-            <img className="resume-img" src="assets/media/self.jpg" alt="img" />
+            <img className="resume-img" src="assets/media/R-Shastri.jpg" alt="img" />
           </div>
         </div>
 
@@ -82,25 +82,55 @@ export default class Resume extends React.Component {
 
           <div className="para-content">
             <h2>PROJECTS</h2>
-            <div className="project-link">
-            1. <a className="btn" href="https://ravindra-shastri.github.io/block-BHaaaw/index.html">link</a>
-            2. <a className="btn" href="https://ravindra-shastri.github.io/checkpoint-2/">link</a>
-            3. <a className="btn" href="https://ravindra-shastri.github.io/TA-STYLE-background-and-gradients-THaaag/block-BHaabu/index.html">link</a>
-            4. <a className="btn" href="https://ravindra-shastri.github.io/Checkpoint---3/">link</a>
-            5. <a className="btn" href="https://ravindra-shastri.github.io/checkpoint-4">link</a>
+
+            <p>Quiz-App</p>
+            <div className="link-box">
+              <a className="live-link" href="https://github.com/ravindra-shastri/Quiz-App">Source</a>
+              <a className="live-link" href="https://quiz-app-chi-one.vercel.app/">Demo</a>
             </div>
-            
+
+            <p>Github-battle</p>
+            <div className="link-box">
+              <a className="live-link" href="https://github.com/ravindra-shastri/Github-battle">Source</a>
+              <a className="live-link" href="https://github-battle-two.vercel.app/">Demo</a>
+            </div>
+
+            <p>Blog-App</p>
+            <div className="link-box">
+              <a className="live-link" href="https://github.com/ravindra-shastri/Blog-App">Source</a>
+              <a className="live-link" href="https://blog-app-six-tawny.vercel.app/">Demo</a>
+            </div>
+            <p>Timer-App</p>
+            <div className="link-box">
+              <a className="live-link" href="https://timer-app-rho.vercel.app/">Source</a>
+              <a className="live-link" href="https://github.com/ravindra-shastri/Timer-App">Demo</a>
+            </div>
+
+            <p>Monthly-Activity-Tracker</p>
+            <div className="link-box">
+              <a className="live-link" href="https://github.com/ravindra-shastri/Monthly-Activity-Tracker">Source</a>
+              <a className="live-link" href="https://monthly-activity-tracker.vercel.app/">Demo</a>
+            </div>
           </div>
         </div>
         <div className="resume-pdf">
-          <a href="assets/media/ravindra.pdf">Resume
+          <a href="assets/media/Ravindra-Shastri.pdf">Upload Resume
           </a>
         </div>
       </div>
-
-
-
-
     )
   }
 }
+
+{/* <div className="box">
+                <img className="img" src="assets/media/github-battle.jpg" alt="" />
+                
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/quiz.jpg" alt="" />
+                
+              </div>
+              <div className="box">
+                <img className="img" src="assets/media/blog.jpg" alt="" />
+                
+              </div> */}
