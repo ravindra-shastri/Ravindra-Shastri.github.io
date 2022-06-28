@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(235, 219, 178);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(240, 214, 154);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.resume {
+  color: black;
+  /* font-size:2rem; */
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0 10rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: .5rem;
+}
+
+.header-nav {
+  padding-top: .4rem;
+  /* margin: 0 1.6rem; */
+}
+
+.header-nav a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: .5rem;
+}
+
+.nav-bar {
+  text-align: right;
+  margin-right: 21rem;
+  /* margin-top: 1rem; */
+}
+
+.nav-bar a {
+  margin: 0 1rem;
+  color: black;
+}
+
+.nav-link-container {
+  margin-right: 4.5rem;
+}
+
+.nav-link {
+  color: black;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.name {
+  text-decoration: none;
+  margin-left: .5rem;
+  color: black;
+}
+
+.dev-name {
+  font-size: 1.5rem;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-div {
+  text-align: center;
+}
+
+.about-name {
+  font-size: 2.5rem;
+}
+
+.about-img {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 1rem;
+  margin-left: 4rem;
+}
+/* .about-item{
+  margin: none;
+} */
+
+.projects-link {
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4rem;
+  
+}
+
+.img {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.project-content,
+.pro-head {
+  text-align: center;
+}
+
+.box {
+  width: 11rem;
+  height: 11rem;
+  border: 1px solid black;
+  margin: .5rem;
+  border-radius: .5rem;
+  text-align: center;
+  /* color: black; */
+  background-color: rgb(228,212,172);
+}
+.link-box{
+  display: flex;
+}
+.live-link{
+  border: 1px solid black;
+  margin: .2rem;
+  padding: .3rem;
+  border-radius: .2rem;
+}
+.btn-style{
+  margin-top:5rem;
+  /* margin-right: 6rem; */
+}
+
+.name-content {
+  text-align: center;
+}
+
+.resume-img-content {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 80%;
+  margin-left: 5rem;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+}
+
+.para-content {
+  width: 24rem;
+  margin: 1rem;
+}
+
+.hr {
+  background-color: black;
+  COLOR: black;
+  margin: 2rem;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin: 1rem;
+
+}
+
+.project-link a {
+  text-decoration: none;
+}
+
+.resume-pdf {
+  text-align: center;
+  margin: 1rem;
+}
+
+.resume-pdf a {
+  /* border:1px solid black; */
+  background-color: grey;
+  color: white;
+  padding: .4rem;
+  border-radius: .4rem;
+  text-decoration: none;
+
+}
+.contact-title{
+  font-size:3rem;
+  text-align: center;
+}
+.contact-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-div {
+  border: 1px solid black;
+  margin: 3rem;
+  background-color: grey;
+  color: white;
+  padding: 4rem;
+  border-radius: 4rem;
+  font-size:2rem;
+}
+.contact-nav{
+  text-align:center;
+  font-size:2rem;
+}
+.contact-nav a{
+  margin: 0 1rem;
+  color:black;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: black;
+}

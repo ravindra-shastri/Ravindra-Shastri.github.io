@@ -1,0 +1,118 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+    html {
+      font-size: 14px;
+    }
+    .container {
+      max-width: 992px;
+    }
+    header{
+      width: 100%;
+      margin:-1rem;
+      padding-top: 2rem;
+    }
+    .projects{
+      margin-top: 3rem;
+      margin-left: 3rem;
+    }
+    .contact{
+      margin-top: 2rem;
+    }
+    .top{
+      margin:-2rem 0;
+    }
+  }
+  /*  FOR  MEDIUM SCREENS */
+  
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 12px;
+    }
+    .container {
+      max-width: 720px;
+    }
+    header{
+      margin: -1.2rem;
+    }
+    .hero{
+      margin: 4rem;
+    }
+    .about{
+      margin: 6rem;
+    }
+    .projects{
+      margin: 9rem 0;
+    }
+    .contact{
+      margin-top: 12rem;
+    }
+    .top{
+      margin: 1.4rem 0;
+    }
+    /* NAVBAR */
+    .nav-bar {
+      position: fixed;
+      height: 5rem;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-bar {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding-top: 13rem;
+      z-index: 9;
+    }
+    .nav-bar a {
+      font-size: 1.2rem;
+    }
+    
+    /* BLOG PAGE */
+    .blog {
+      padding: 2rem 0;
+      margin-top: 4rem;
+    }
+  }
+  /*FOR SAMLL SCREENS */
+  
+  @media screen and (max-width: 576px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      max-width: 520px;
+    }
+    header{
+      margin: -2.4rem;
+    }
+    .about{
+      padding:5.4rem;
+    }
+    .skill{
+      padding: 2rem;
+      margin-left: 4rem;
+    }
+    .projects{
+      margin-right: 2rem;
+    }
+    .contact{
+      margin-left: 6rem;
+      background-color: rgb(112, 109, 109);
+    }
+    .nav-bar a {
+      font-size: 1rem;
+    }
+    .nav-bar {
+      margin: 5px 0;
+    }
+    
+    /* FOOTER */
+    .footer {
+     padding-left: 8rem;
+    }
+}
