@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -18,12 +17,6 @@ class App extends React.Component {
             path="/"
             exact
             component={Home}
-          >
-          </Route>
-          <Route
-            path="/about"
-            exact
-            component={AboutMe}
           >
           </Route>
           <Route

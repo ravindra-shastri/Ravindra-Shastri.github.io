@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { RESUME_PROJECTS, PROFESSION, EDUCATIONS } from '../data';
 export default class Resume extends React.Component {
   render() {
     return (
@@ -9,25 +9,49 @@ export default class Resume extends React.Component {
             <h1> RAVINDRA SHASTRI</h1>
             <p> FULL STACK DEVELOPER</p>
           </div>
-          <div className="">
-            <img className="resume-img" src="assets/media/R-Shastri.jpg" alt="img" />
-          </div>
         </div>
-
-
         <div className="address">
           <div className="para-content">
-            <p><i className="fa-solid fa-phone icon"></i>
-              +919334089780</p>
-            <p><i className="fa-solid fa-location-smile icon"></i>
-              Dharamshala,Himachal Pradesh</p>
-            <p><i className="fa-solid fa-square-envelope icon"></i>
-              ravindrashastri90@gmail.com</p>
-            <p><i className="fa-brands fa-linkedin icon"></i>
-              https://www.linkedin.com/in/ravindra-shastri-3942a720b/</p>
-            <p><i className="fa-brands fa-github icon"></i>ravindra-shastri</p>
-            <p><i className="fa-brands fa-twitter icon"></i>
-              https://twitter.com/RavindraShast13</p>
+            <p>
+              <a className="color" href="tell:+919334089780">
+              <i className="fa-solid fa-phone icon"></i>
+                  09334089780
+                </a>
+            </p>
+            <p>
+              <i class="fa-solid fa-location-dot icon"></i>
+              Dharamshala,Himachal Pradesh
+            </p>
+            <p>
+
+              <a className="color" href="mailto:ravindrashastri90@gmail.com">
+                <i className="fa-solid fa-square-envelope icon"></i>
+                ravindrashastri90@gmail.com
+              </a>
+            </p>
+            <p>
+              <a className="color" href="https://github.com/ravindra-shastri">
+                <i className="fa-brands fa-github icon"></i>
+                https://github.com/ravindra-shastri</a>
+            </p>
+            <p>
+              <a className="color" href="https://twitter.com/RavindraShast13">
+                <i className="fa-brands fa-twitter icon"></i>
+                https://twitter.com/RavindraShast13
+              </a>
+            </p>
+            <p>
+              <a className="color" href="https://ravindrashastri.tech">
+                <i class="fa-solid fa-earth-asia icon"></i>
+                https://ravindrashastri.tech
+              </a>
+            </p>
+            <p>
+              <a className="color" href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
+                <i className="fa-brands fa-linkedin icon"></i>
+                https://www.linkedin.com/in/ravindra-shastri-3942a720b/
+              </a>
+            </p>
           </div>
           <hr className="hr" />
           <div className="para-content">
@@ -50,32 +74,24 @@ export default class Resume extends React.Component {
         <div className="address">
           <div className="para-content">
             <h2>PROFFESIONAL HISTORY</h2>
+            {
+              PROFESSION.map(({ title, timeline }) => <>
+                <h4>{title}</h4>
+                <p>{timeline}</p>
+              </>
+              )
+            }
 
-            <h4>CADILA PHARMACEUTICALS</h4>
-            <p>MEDICAL REPRESENTATIVE
-              (OCT,2010 - JUL,2012)
-            </p>
-
-            <h4>KLAR SEHEN PVT. LTD</h4>
-            <p>MEDICAL REPRESENTATIVE
-              (JUL,2012 - APR,2013)
-            </p>
-
-            <h4>KIM LABORATORIES PVT. LTD</h4>
-            <p>MEDICAL REPRESENTATIVE
-              (APR,2013 - JAN,2021)
-            </p>
-
-            <h2>EDUCATIONS</h2>
-
-            <h4>INTERMEDIATE</h4>
-            <p>BIEC, PATNA</p>
-
-            <h4>BACHELOR OF SCIENCE</h4>
-            <p>MAGADH UNIVERSITY, GAYA, BIHAR</p>
-
-            <h4>ALTCAMPUS</h4>
-            <p>FULL STACK WEB DEVELOPMENT</p>
+            <h2 className="edu-title">EDUCATIONS</h2>
+            {
+              EDUCATIONS.map(({ level, board }) => <>
+                <h4>
+                  {level}
+                </h4>
+                <p>{board}</p>
+              </>
+              )
+            }
           </div>
 
           <hr className="hr" />
@@ -83,54 +99,28 @@ export default class Resume extends React.Component {
           <div className="para-content">
             <h2>PROJECTS</h2>
 
-            <p>Quiz-App</p>
-            <div className="link-box">
-              <a className="live-link" href="https://github.com/ravindra-shastri/Quiz-App">Source</a>
-              <a className="live-link" href="https://quiz-app-chi-one.vercel.app/">Demo</a>
-            </div>
+            {
+              RESUME_PROJECTS.map(({ title, github, live }) => <div className="project-item">
+                <p>{title}</p>
+                <div className="link-box">
+                  {github &&
+                    <a className="live-link" href={github}>
+                      <i class="fa-brands fa-github-alt link-icon"></i>
+                    </a>
+                  }
+                  {
+                    live &&
+                    <a className="live-link" href={live}>
+                      <i class="fa-solid fa-eye link-icon"></i>
+                    </a>
+                  }
 
-            <p>Github-battle</p>
-            <div className="link-box">
-              <a className="live-link" href="https://github.com/ravindra-shastri/Github-battle">Source</a>
-              <a className="live-link" href="https://github-battle-two.vercel.app/">Demo</a>
-            </div>
-
-            <p>Blog-App</p>
-            <div className="link-box">
-              <a className="live-link" href="https://github.com/ravindra-shastri/Blog-App">Source</a>
-              <a className="live-link" href="https://blog-app-six-tawny.vercel.app/">Demo</a>
-            </div>
-            <p>Timer-App</p>
-            <div className="link-box">
-              <a className="live-link" href="https://timer-app-rho.vercel.app/">Source</a>
-              <a className="live-link" href="https://github.com/ravindra-shastri/Timer-App">Demo</a>
-            </div>
-
-            <p>Monthly-Activity-Tracker</p>
-            <div className="link-box">
-              <a className="live-link" href="https://github.com/ravindra-shastri/Monthly-Activity-Tracker">Source</a>
-              <a className="live-link" href="https://monthly-activity-tracker.vercel.app/">Demo</a>
-            </div>
+                </div>
+              </div>)
+            }
           </div>
-        </div>
-        <div className="resume-pdf">
-          <a href="assets/media/Ravindra-Shastri.pdf">Upload Resume
-          </a>
         </div>
       </div>
     )
   }
 }
-
-{/* <div className="box">
-                <img className="img" src="assets/media/github-battle.jpg" alt="" />
-                
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/quiz.jpg" alt="" />
-                
-              </div>
-              <div className="box">
-                <img className="img" src="assets/media/blog.jpg" alt="" />
-                
-              </div> */}

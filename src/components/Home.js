@@ -7,11 +7,14 @@ export default class Home extends React.Component {
       <>
         <div className="hero-container">
           <div className="hero-div">
-            <h2 className="about-name">Hey, 👋 I'm
+            <h2 className="about-name">
+              Hey, 👋 I'm
               <NavLink to="/about" className="name">
                 <strong>Ravindra Shastri!</strong>
               </NavLink>
-              <p className="dev-name">A full stack developer</p>
+              <p className="dev-name">
+                A full stack developer
+              </p>
             </h2>
 
             <p className="dev-name">
@@ -21,13 +24,23 @@ export default class Home extends React.Component {
               by building websites<br /> and applications.
             </p>
             <nav className="nav-bar">
-          <a href="https://twitter.com/ravindrashast13"><i className="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/"><i className="fab fa-linkedin-in"></i></a>
-          <a href="Ravindra-Shastri.github.com"><i className="fab fa-github"></i></a>
-        </nav>
+              <a href="https://twitter.com/ravindrashast13">
+                <i className="fab fa-twitter icon"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
+                <i className="fab fa-linkedin-in icon"></i>
+              </a>
+              <a href="Ravindra-Shastri.github.com">
+                <i className="fab fa-github icon"></i>
+              </a>
+            </nav>
           </div>
           <div className="about-item">
-            <img className="about-img" src="assets/media/R-Shastri.jpg" alt="img" />
+            <img
+              className="about-img"
+              src="assets/media/R-Shastri.jpg"
+              alt="img"
+            />
           </div>
         </div>
       </>
