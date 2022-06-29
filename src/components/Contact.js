@@ -27,6 +27,7 @@ export default class Contact extends React.Component {
               DharamShala,Himachal Pradesh,India
 
               {/* Phone and email details */}
+              
               <div className="phone">
                 <i className="fa-solid fa-phone"></i>
                 <a className="phone-number" href="tell:+919334089780">

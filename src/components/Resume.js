@@ -10,13 +10,15 @@ export default class Resume extends React.Component {
             <p> FULL STACK DEVELOPER</p>
           </div>
         </div>
+        <hr className="hr"/>
+
         <div className="address">
           <div className="para-content">
             <p>
               <a className="color" href="tell:+919334089780">
-              <i className="fa-solid fa-phone icon"></i>
-                  09334089780
-                </a>
+                <i className="fa-solid fa-phone icon"></i>
+                09334089780
+              </a>
             </p>
             <p>
               <i class="fa-solid fa-location-dot icon"></i>
@@ -103,18 +105,17 @@ export default class Resume extends React.Component {
               RESUME_PROJECTS.map(({ title, github, live }) => <div className="project-item">
                 <p>{title}</p>
                 <div className="link-box">
-                  {github &&
-                    <a className="live-link" href={github}>
-                      <i class="fa-brands fa-github-alt link-icon"></i>
-                    </a>
-                  }
                   {
                     live &&
                     <a className="live-link" href={live}>
                       <i class="fa-solid fa-eye link-icon"></i>
                     </a>
                   }
-
+                  {github &&
+                    <a className="live-link" href={github}>
+                      <i class="fa-brands fa-github-alt link-icon"></i>
+                    </a>
+                  }
                 </div>
               </div>)
             }

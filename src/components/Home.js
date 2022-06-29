@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 export default class Home extends React.Component {
   render() {
@@ -8,10 +7,11 @@ export default class Home extends React.Component {
         <div className="hero-container">
           <div className="hero-div">
             <h2 className="about-name">
+              
+              <div className="name">
               Hey, 👋 I'm
-              <NavLink to="/about" className="name">
-                <strong>Ravindra Shastri!</strong>
-              </NavLink>
+                <strong> Ravindra Shastri! </strong>
+              </div>
               <p className="dev-name">
                 A full stack developer
               </p>
@@ -35,7 +35,7 @@ export default class Home extends React.Component {
               </a>
             </nav>
           </div>
-          <div className="about-item">
+          <div>
             <img
               className="about-img"
               src="assets/media/R-Shastri.jpg"

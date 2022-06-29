@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(235, 219, 178);
+  background-color: rgb(234, 220, 185);
 }
 
 code {
@@ -89,12 +89,12 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: calc(100vh - 80px);
 }
 
 .hero-div {
   text-align: center;
   width: 60%;
-  margin-top: 8rem;
 }
 
 .about-name {
@@ -102,9 +102,9 @@ code {
 }
 
 .about-img {
-  width: 13rem;
-  height: 13rem;
-  border-radius: 1rem;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
   margin-left: 4rem;
 }
 
@@ -226,7 +226,8 @@ code {
   border-radius: .4rem;
   text-decoration: none;
 }
-.edu-title{
+
+.edu-title {
   margin-top: 2rem;
 }
 
@@ -236,15 +237,18 @@ code {
   cursor: pointer;
   margin-right: 6px;
 }
-.icon:hover{
+
+.icon:hover {
   color: rgb(83, 146, 83);
 }
-.color{
+
+.color {
   color: black;
   text-decoration: none;
 }
-.color:hover{
-  color:rgb(98, 98, 246);
+
+.color:hover {
+  color: rgb(98, 98, 246);
 
 }
 
@@ -253,8 +257,9 @@ code {
   color: rgb(16, 105, 108);
   cursor: pointer;
 }
-.link-icon:hover{
-  color:rgb(238, 64, 157);
+
+.link-icon:hover {
+  color: rgb(238, 64, 157);
 }
 
 .contact-title {
@@ -283,7 +288,7 @@ code {
 .contact-div {
   border: 1px solid black;
   margin: 3rem;
-  background-color: grey;
+  background-color: rgb(140, 140, 140);
   color: white;
   padding: 3rem;
   border-radius: 3rem;
