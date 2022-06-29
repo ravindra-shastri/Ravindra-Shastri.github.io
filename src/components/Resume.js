@@ -21,7 +21,7 @@ export default class Resume extends React.Component {
               </a>
             </p>
             <p>
-              <i class="fa-solid fa-location-dot icon"></i>
+              <i className="fa-solid fa-location-dot icon"></i>
               Dharamshala,Himachal Pradesh
             </p>
             <p>
@@ -44,7 +44,7 @@ export default class Resume extends React.Component {
             </p>
             <p>
               <a className="color" href="https://ravindrashastri.tech">
-                <i class="fa-solid fa-earth-asia icon"></i>
+                <i className="fa-solid fa-earth-asia icon"></i>
                 https://ravindrashastri.tech
               </a>
             </p>
@@ -102,18 +102,19 @@ export default class Resume extends React.Component {
             <h2>PROJECTS</h2>
 
             {
-              RESUME_PROJECTS.map(({ title, github, live }) => <div className="project-item">
+              RESUME_PROJECTS.map(({ title, github, live }) => 
+              <div className="project-item">
                 <p>{title}</p>
                 <div className="link-box">
                   {
                     live &&
                     <a className="live-link" href={live}>
-                      <i class="fa-solid fa-eye link-icon"></i>
+                      <i className="fa-solid fa-eye link-icon"></i>
                     </a>
                   }
                   {github &&
                     <a className="live-link" href={github}>
-                      <i class="fa-brands fa-github-alt link-icon"></i>
+                      <i className="fa-brands fa-github-alt link-icon"></i>
                     </a>
                   }
                 </div>

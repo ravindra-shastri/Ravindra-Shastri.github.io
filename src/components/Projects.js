@@ -4,7 +4,7 @@ import { PROJECTS } from '../data';
 export default class Projects extends React.Component {
   render() {
     return (
-      <div id="projects">
+      <div>
         <div>
           <div className="project-content">
             <h1>
@@ -18,8 +18,8 @@ export default class Projects extends React.Component {
             </p>
           </div>
 
-          <div class="projects container" id="projects">
-            <div class="pro-head">
+          <div className="projects container">
+            <div className="pro-head">
               <h1>Projects</h1>
               <hr className="hr" />
               <p>
@@ -38,13 +38,13 @@ export default class Projects extends React.Component {
                       {
                         github &&
                         <a className="live-link" href={github}>
-                          <i class="fa-brands fa-github-alt link-icon"></i>
+                          <i className="fa-brands fa-github-alt link-icon"></i>
                         </a>
                       }
                       {
                         live &&
                         <a className="live-link" href={live}>
-                          <i class="fa-solid fa-eye link-icon"></i>
+                          <i className="fa-solid fa-eye link-icon"></i>
                         </a>
                       }
                     </div>

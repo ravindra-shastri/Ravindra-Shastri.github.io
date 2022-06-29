@@ -4,9 +4,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <section className="contact container" id="contact">
+        <section className="contact container">
           <h4 className="contact-title">
-            Get in touch with
+            Get in touch
           </h4>
           <hr className="hr" />
           <nav className=" contact-nav">
@@ -16,7 +16,7 @@ export default class Contact extends React.Component {
             <a href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
               <i className="fab fa-linkedin-in icon"></i>
             </a>
-            <a href="Ravindra-Shastri.github.com">
+            <a href="ravindra-shastri.github.com">
               <i className="fab fa-github icon"></i>
             </a>
           </nav>
@@ -27,7 +27,7 @@ export default class Contact extends React.Component {
               DharamShala,Himachal Pradesh,India
 
               {/* Phone and email details */}
-              
+
               <div className="phone">
                 <i className="fa-solid fa-phone"></i>
                 <a className="phone-number" href="tell:+919334089780">
@@ -35,7 +35,7 @@ export default class Contact extends React.Component {
                 </a>
               </div>
               <div className="mail">
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
                 <a className="mail-address"
                   href="mailto:ravindrashastri90@gmail.com">
                   <span>ravindrashastri90@gmail.com</span>

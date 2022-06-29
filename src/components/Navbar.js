@@ -26,8 +26,8 @@ export default class Navbar extends React.Component {
               Resume
             </NavLink>
             <div className="download-resume">
-              <a href="assets/media/Ravindra-Shastri.pdf">
-                <i class="fa-solid fa-arrow-down"></i>
+              <a href="assets/media/R.Shastri.pdf">
+                <i className="fa-solid fa-arrow-down"></i>
               </a>
             </div>
           </nav>
