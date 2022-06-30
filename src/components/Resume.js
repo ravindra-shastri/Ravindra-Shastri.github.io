@@ -117,6 +117,7 @@ export default class Resume extends React.Component {
                         <i className="fa-brands fa-github-alt link-icon"></i>
                       </a>
                     }
+
                   </div>
                 </div>)
             }
