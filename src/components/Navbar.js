@@ -7,26 +7,26 @@ export default class Navbar extends React.Component {
       <header>
         <div className="header-container">
           <nav>
-            <NavLink className="logo" to="/">
+            <NavLink className="logo color" to="/">
               RS
             </NavLink>
           </nav>
 
           <nav className="nav-link-container">
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link color" to="/">
               Home
             </NavLink>
-            <NavLink className="nav-link" to="/projects">
+            <NavLink className="nav-link color" to="/projects">
               Projects
             </NavLink>
-            <NavLink className="nav-link" to="/contact">
+            <NavLink className="nav-link color" to="/contact">
               Contact
             </NavLink>
-            <NavLink className="nav-link" to="/resume">
+            <NavLink className="nav-link color" to="/resume">
               Resume
             </NavLink>
             <div className="download-resume">
-              <a href="assets/media/R.Shastri.pdf">
+              <a className="color" href="assets/media/R.Shastri.pdf">
                 <i className="fa-solid fa-arrow-down"></i>
               </a>
             </div>

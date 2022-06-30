@@ -18,7 +18,7 @@ export default class Projects extends React.Component {
             </p>
           </div>
 
-          <div className="projects container">
+          <div className="projects-container">
             <div className="pro-head">
               <h1>Projects</h1>
               <hr className="hr" />

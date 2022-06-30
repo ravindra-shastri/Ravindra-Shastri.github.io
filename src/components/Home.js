@@ -30,7 +30,7 @@ export default class Home extends React.Component {
               <a href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
                 <i className="fab fa-linkedin-in icon"></i>
               </a>
-              <a href="Ravindra-Shastri.github.com">
+              <a href="https://github.com/ravindra-shastri">
                 <i className="fab fa-github icon"></i>
               </a>
             </nav>

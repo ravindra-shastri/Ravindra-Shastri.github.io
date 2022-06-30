@@ -10,13 +10,13 @@ export default class Contact extends React.Component {
           </h4>
           <hr className="hr" />
           <nav className=" contact-nav">
-            <a href="https://twitter.com/ravindrashast13">
+            <a className="color"href="https://twitter.com/ravindrashast13">
               <i className="fab fa-twitter icon"></i>
             </a>
-            <a href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
+            <a className="color"href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
               <i className="fab fa-linkedin-in icon"></i>
             </a>
-            <a href="ravindra-shastri.github.com">
+            <a className="color"href="ravindra-shastri.github.com">
               <i className="fab fa-github icon"></i>
             </a>
           </nav>
@@ -29,15 +29,15 @@ export default class Contact extends React.Component {
               {/* Phone and email details */}
 
               <div className="phone">
-                <i className="fa-solid fa-phone"></i>
-                <a className="phone-number" href="tell:+919334089780">
+                <a className="phone-number color " href="tell:+919334089780">
+                <i className="fa-solid fa-phone cont-icon"></i>
                   <span>09334089780</span>
                 </a>
               </div>
               <div className="mail">
-                <i className="fa-solid fa-envelope"></i>
-                <a className="mail-address"
+                <a className="mail-address color"
                   href="mailto:ravindrashastri90@gmail.com">
+                <i className="fa-solid fa-envelope cont-icon"></i>
                   <span>ravindrashastri90@gmail.com</span>
                 </a>
               </div>

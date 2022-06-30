@@ -41,47 +41,47 @@ export const RESUME_PROJECTS = [
 export const PROJECTS = [
   {
     title: 'Github battle',
-    image: 'assets/media/github-battle.jpg',
+    image: 'assets/media/github.png',
     github: 'https://github.com/ravindra-shastri/github-battle',
     live: 'https://github-battle-two.vercel.app'
   },
   {
     title: 'Quiz App',
-    image: 'assets/media/quiz.jpg',
+    image: 'assets/media/quiz.png',
     github: 'https://github.com/ravindra-shastri/Quiz-App',
     live: 'https://quiz-app-chi-one.vercel.app'
   },
   {
     title: 'Blog App',
-    image: 'assets/media/blog.jpg',
+    image: 'assets/media/blog.png',
     github: 'https://github.com/ravindra-shastri/Blog-App',
     live: 'https://blog-app-six-tawny.vercel.app'
   },
   {
     title: 'Timer App',
-    image: 'assets/media/Timer.jpg',
+    image: 'assets/media/timer.png',
     github: 'https://github.com/ravindra-shastri/Timer-App',
     live: 'https://timer-app-rho.vercel.app'
   },
   {
     title: 'Monthly Activity Tracker',
-    image: 'assets/media/monthly-activity.jpg',
+    image: 'assets/media/monthly.png',
     github: 'https://github.com/ravindra-shastri/Monthly-Activity-Tracker',
     live: 'https://monthly-activity-tracker.vercel.app'
   },
   {
     title: 'checkpoint-4 HTML/CSS',
-    image: 'assets/media/img14.jpg',
+    image: 'assets/media/check-4.png',
     github: "https://ravindra-shastri.github.io/checkpoint-4",
   },
   {
     title: 'Checkpoint---3 HTML/CSS',
-    image: 'assets/media/img10.jpg',
+    image: 'assets/media/check-3.png',
     github: '"https://ravindra-shastri.github.io/Checkpoint---3',
   },
   {
     title: 'checkpoint-2 HTML/CSS',
-    image: 'assets/media//img5.jpg',
+    image: 'assets/media//check-2.png',
     github: 'https://ravindra-shastri.github.io/checkpoint-2/',
   },
   
