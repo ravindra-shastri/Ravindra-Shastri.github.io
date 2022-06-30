@@ -25,6 +25,16 @@ export const RESUME_PROJECTS = [
     live: 'https://monthly-activity-tracker.vercel.app'
   },
   {
+    title: 'Routing-App',
+    github: 'https://github.com/ravindra-shastri/Routing-App',
+    live: 'https://routing-app-gules.vercel.app/'
+  },
+  {
+    title: 'Tic-Tac-Toe Game',
+    github: 'https://github.com/Ravindra-Shastri/Tic---Tac---Toe-Game',
+    live: 'https://vercel.com/ravindra-shastri/tic-tac-toe-game'
+  },
+  {
     title: 'checkpoint-4 HTML/CSS',
     github: "https://ravindra-shastri.github.io/checkpoint-4",
   },
@@ -68,6 +78,18 @@ export const PROJECTS = [
     image: 'assets/media/monthly.png',
     github: 'https://github.com/ravindra-shastri/Monthly-Activity-Tracker',
     live: 'https://monthly-activity-tracker.vercel.app'
+  },
+  {
+    title: 'Routing-App',
+    image: 'assets/media/routing.png',
+    github: 'https://github.com/ravindra-shastri/Routing-App',
+    live: 'https://routing-app-gules.vercel.app/'
+  },
+  {
+    title: 'Tic-Tac-Toe Game',
+    image: 'assets/media/tic-tac.png',
+    github: 'https://github.com/Ravindra-Shastri/Tic---Tac---Toe-Game',
+    live: 'https://vercel.com/ravindra-shastri/tic-tac-toe-game'
   },
   {
     title: 'checkpoint-4 HTML/CSS',
