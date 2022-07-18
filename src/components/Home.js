@@ -27,7 +27,7 @@ export default class Home extends React.Component {
               <a href="https://twitter.com/ravindrashast13">
                 <i className="fab fa-twitter icon"></i>
               </a>
-              <a href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
+              <a href="https://www.linkedin.com/in/ravindra-shastri/">
                 <i className="fab fa-linkedin-in icon"></i>
               </a>
               <a href="https://github.com/ravindra-shastri">

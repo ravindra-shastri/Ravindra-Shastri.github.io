@@ -43,15 +43,15 @@ export default class Resume extends React.Component {
               </a>
             </p>
             <p>
-              <a className="color" href="https://ravindrashastri.tech">
-                <i className="fa-solid fa-earth-asia icon"></i>
-                https://ravindrashastri.tech
+              <a className="color" href="https://www.linkedin.com/in/ravindra-shastri/">
+                <i className="fa-brands fa-linkedin icon"></i>
+                https://www.linkedin.com/in/ravindra-shastri
               </a>
             </p>
             <p>
-              <a className="color" href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
-                <i className="fa-brands fa-linkedin icon"></i>
-                https://www.linkedin.com/in/ravindra-shastri-3942a720b/
+              <a className="color" href="https://ravindrashastri.tech">
+                <i className="fa-solid fa-earth-asia icon"></i>
+                https://ravindrashastri.tech
               </a>
             </p>
           </div>
@@ -66,8 +66,8 @@ export default class Resume extends React.Component {
             <div>
               <h2>AREAS OF EXPERTISE</h2>
               <p>
-                HTML, CSS & Sass, Javascript, MongoDB,
-                NodeJs, ReactJS, Git
+                React js, Redux, Hooks, Javascript, HTML, CSS ,
+                SCSS,  Node js, Express js, MongoDB, Git
               </p>
             </div>
           </div>

@@ -13,7 +13,7 @@ export default class Contact extends React.Component {
             <a className="color"href="https://twitter.com/ravindrashast13">
               <i className="fab fa-twitter icon"></i>
             </a>
-            <a className="color"href="https://www.linkedin.com/in/ravindra-shastri-3942a720b/">
+            <a className="color"href="https://www.linkedin.com/in/ravindra-shastri/">
               <i className="fab fa-linkedin-in icon"></i>
             </a>
             <a className="color"href="ravindra-shastri.github.com">
