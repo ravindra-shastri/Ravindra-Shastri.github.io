@@ -7,9 +7,8 @@ export default class Home extends React.Component {
         <div className="hero-container">
           <div className="hero-div">
             <h2 className="about-name">
-              
               <div className="name">
-              Hey, 👋 I'm
+                Hey, 👋 I'm
                 <strong> Ravindra Shastri! </strong>
               </div>
               <p className="dev-name">

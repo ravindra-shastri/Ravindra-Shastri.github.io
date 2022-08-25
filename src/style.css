@@ -199,7 +199,10 @@ code {
   width: 24rem;
   margin: 1rem;
 }
-
+.dis-para{
+  font-size: 1.6rem;
+  font-weight:300;
+}
 .hr {
   background-color: black;
   COLOR: black;

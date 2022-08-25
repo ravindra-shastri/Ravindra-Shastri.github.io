@@ -1,5 +1,5 @@
 import React from 'react';
-import { RESUME_PROJECTS, PROFESSION, EDUCATIONS } from '../data';
+import { RESUME_PROJECTS, EDUCATIONS } from '../data';
 export default class Resume extends React.Component {
   render() {
     return (
@@ -57,33 +57,38 @@ export default class Resume extends React.Component {
           </div>
           <hr className="hr" />
           <div className="para-content">
-            <p>I am a web developer seeking
+            <p className="dis-para">I am a web developer seeking
               profession to help in the field of web
               development, where I can apply my
               knowledge, skills, and experience for
               continuous improvements.
             </p>
-            <div>
-              <h2>AREAS OF EXPERTISE</h2>
-              <p>
-                React js, Redux, Hooks, Javascript, HTML, CSS ,
-                SCSS,  Node js, Express js, MongoDB, Git
-              </p>
-            </div>
           </div>
         </div>
         <hr className="hr" />
         <div className="address">
           <div className="para-content">
-            <h2>PROFFESIONAL HISTORY</h2>
-            {
-              PROFESSION.map(({ title, timeline }) => <>
-                <h4>{title}</h4>
-                <p>{timeline}</p>
-              </>
-              )
-            }
+            <div>
+              <h2>EXPERIENCE</h2>
+              <h3>Freelance</h3>
+              <p>
+                Macher USA (July 2021 - July 2022)
+              </p>
+              <p>
+                (React, Redux)
+              </p>
+              <p>
+                Macher USA is available for service and promotion purposes for
+                the people's needs for selling and purchasing real estate and plots,
+                business details, products etc.
+              </p>
 
+              <h2>AREAS OF EXPERTISE</h2>
+              <p>
+                React js, Redux, Javascript, HTML, CSS,
+                SCSS, Tailwindcss, Node js, Express js, MongoDB, Git
+              </p>
+            </div>
             <h2 className="edu-title">EDUCATIONS</h2>
             {
               EDUCATIONS.map(({ level, board }) => <>

@@ -1,5 +1,10 @@
 export const RESUME_PROJECTS = [
   {
+    title: 'Shopping Cart',
+    github: 'https://github.com/ravindra-shastri/shopping-cart-using-hooks',
+    live: 'https://shopping-cart-using-hooks-nu.vercel.app/'
+  },
+  {
     title: 'Quiz App',
     github: 'https://github.com/ravindra-shastri/Quiz-App',
     live: 'https://quiz-app-chi-one.vercel.app'
@@ -47,7 +52,7 @@ export const RESUME_PROJECTS = [
     github: 'https://ravindra-shastri.github.io/checkpoint-2/',
   },
 ];
-           
+
 export const PROJECTS = [
   {
     title: 'Github battle',
@@ -106,22 +111,7 @@ export const PROJECTS = [
     image: 'assets/media//check-2.png',
     github: 'https://ravindra-shastri.github.io/checkpoint-2/',
   },
-  
-];
 
-export const PROFESSION = [
-  {
-    title: 'CADILA PHARMACEUTICALS',
-    timeline: 'MEDICAL REPRESENTATIVE (OCT,2010 - JUL,2012)'
-  },
-  {
-    title: 'KLAR SEHEN PVT. LTD',
-    timeline: 'MEDICAL REPRESENTATIVE (JUL,2012 - APR,2013)'
-  },
-  {
-    title: 'KIM LABORATORIES PVT. LTD',
-    timeline: 'MEDICAL REPRESENTATIVE (APR,2013 - JAN,2021)'
-  }
 ];
 
 export const EDUCATIONS = [
