@@ -1,7 +1,7 @@
 <h1> Ravindra Shastri</h1>
 <p> Portfolio </p>
 
-## [Live Demo](https://blog-app-using-hooks.vercel.app/)
+## [Live Demo](https://ravindrashastri.vercel.app/)
 
 
 # Getting Started with Create React App
