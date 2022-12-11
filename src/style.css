@@ -90,6 +90,7 @@ code {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 80px);
+  cursor: pointer;
 }
 
 .hero-div {
@@ -103,7 +104,7 @@ code {
 
 .about-img {
   width: 15rem;
-  height: 18rem;
+  height: 15rem;
   border-radius: 5%;
 }
 
@@ -125,6 +126,7 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .projects-link {
@@ -199,10 +201,12 @@ code {
   width: 24rem;
   margin: 1rem;
 }
-.dis-para{
+
+.dis-para {
   font-size: 1.6rem;
-  font-weight:300;
+  font-weight: 300;
 }
+
 .hr {
   background-color: black;
   COLOR: black;
