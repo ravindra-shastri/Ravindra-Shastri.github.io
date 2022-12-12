@@ -70,17 +70,23 @@ export default class Resume extends React.Component {
           <div className="para-content">
             <div>
               <h2>EXPERIENCE</h2>
-              <h3>Freelance</h3>
+              <h3>Frontend Developer</h3>
               <p>
-                Macher USA (July 2021 - July 2022)
+                (Jan 2022 - Present)
               </p>
               <p>
-                (React, Redux)
+                Hackerlabs
               </p>
               <p>
-                Macher USA is available for service and promotion purposes for
-                the people's needs for selling and purchasing real estate and plots,
-                business details, products etc.
+                Dharamshala,Himachal Pradesh
+              </p>
+
+              <h2>Full-Stack web Development</h2>
+              <p>
+                 AltCampus
+              </p>
+              <p>
+                 Dharamshala,Himachal Pradesh
               </p>
 
               <h2>AREAS OF EXPERTISE</h2>

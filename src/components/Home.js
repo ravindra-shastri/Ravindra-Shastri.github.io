@@ -37,7 +37,7 @@ export default class Home extends React.Component {
           <div>
             <img
               className="about-img"
-              src="assets/media/R-Shastri.jpg"
+              src="assets/media/Ravindra-Shastri.png"
               alt="img"
             />
           </div>

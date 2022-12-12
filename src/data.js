@@ -117,14 +117,14 @@ export const PROJECTS = [
 export const EDUCATIONS = [
   {
     level: 'BACHELOR OF SCIENCE',
-    board: 'MAGADH UNIVERSITY, GAYA, BIHAR'
+    board: 'MAGADH UNIVERSITY, BODH GAYA'
   },
   {
     level: 'INTERMEDIATE',
     board: 'BIEC, PATNA'
   },
   {
-    level: 'ALTCAMPUS',
-    board: 'FULL STACK WEB DEVELOPMENT'
+    level: 'MATRICULATION',
+    board: 'BSEB, PATNA'
   }
 ]
