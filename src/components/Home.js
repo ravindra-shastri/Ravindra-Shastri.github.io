@@ -12,12 +12,12 @@ export default class Home extends React.Component {
                 <strong> Ravindra Shastri! </strong>
               </div>
               <p className="dev-name">
-                A full stack developer
+               Frontend developer
               </p>
             </h2>
 
             <p className="dev-name">
-              I am a MERN stack web developer,
+              I am a Frontend developer,
               a learner and a good listener.<br />
               I am sharpening my web development skills
               by building websites<br /> and applications.

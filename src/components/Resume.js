@@ -7,7 +7,7 @@ export default class Resume extends React.Component {
         <div className="resume-img-content">
           <div className="name-content">
             <h1> RAVINDRA SHASTRI</h1>
-            <p> FULL STACK DEVELOPER</p>
+            <p> FRONTEND DEVELOPER</p>
           </div>
         </div>
         <hr className="hr" />
@@ -22,7 +22,7 @@ export default class Resume extends React.Component {
             </p>
             <p>
               <i className="fa-solid fa-location-dot icon"></i>
-              Dharamshala,Himachal Pradesh
+              Dharamshala, Himachal Pradesh
             </p>
             <p>
 
@@ -70,15 +70,22 @@ export default class Resume extends React.Component {
           <div className="para-content">
             <div>
               <h2>EXPERIENCE</h2>
-              <h3>Frontend Developer</h3>
+              <h4>CYBERSIFY CLOUD COMPUTING</h4>
+              <h4>Frontend Intern</h4>
               <p>
-                (Jan 2022 - Present)
+                (Jan 2023 - Current)
               </p>
               <p>
-                Hackerlabs
+                Mohali, Punjab
+              </p>
+
+              <h4>SAMY E-COMMERCE</h4>
+              <h4>Frontend Intern</h4>
+              <p>
+                (OCT 2022 - DEC 2022)
               </p>
               <p>
-                Dharamshala,Himachal Pradesh
+                Zirakpur, Punjab
               </p>
 
               <h2>Full-Stack web Development</h2>
@@ -86,13 +93,13 @@ export default class Resume extends React.Component {
                  AltCampus
               </p>
               <p>
-                 Dharamshala,Himachal Pradesh
+                 Dharamshala, Himachal Pradesh
               </p>
 
               <h2>AREAS OF EXPERTISE</h2>
               <p>
-                React js, Redux, Javascript, HTML, CSS,
-                SCSS, Tailwindcss, Node js, Express js, MongoDB, Git
+                React js, Javascript, HTML, CSS,
+                SCSS, Tailwindcss, Git
               </p>
             </div>
             <h2 className="edu-title">EDUCATIONS</h2>
