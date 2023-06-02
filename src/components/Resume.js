@@ -69,31 +69,21 @@ export default class Resume extends React.Component {
         <div className="address">
           <div className="para-content">
             <div>
-              <h2>EXPERIENCE</h2>
-              <h4>CYBERSIFY CLOUD COMPUTING</h4>
-              <h4>Frontend Intern</h4>
-              <p>
-                (Jan 2023 - Current)
-              </p>
-              <p>
-                Mohali, Punjab
-              </p>
-
-              <h4>SAMY E-COMMERCE</h4>
-              <h4>Frontend Intern</h4>
-              <p>
-                (OCT 2022 - DEC 2022)
-              </p>
-              <p>
-                Zirakpur, Punjab
-              </p>
-
+              {
+                EDUCATIONS.map(({ level, board }) => <>
+                  <h4>
+                    {level}
+                  </h4>
+                  <p>{board}</p>
+                </>
+                )
+              }
               <h2>Full-Stack web Development</h2>
               <p>
-                 AltCampus
+                AltCampus
               </p>
               <p>
-                 Dharamshala, Himachal Pradesh
+                Dharamshala, Himachal Pradesh
               </p>
 
               <h2>AREAS OF EXPERTISE</h2>
@@ -103,7 +93,7 @@ export default class Resume extends React.Component {
               </p>
             </div>
             <h2 className="edu-title">EDUCATIONS</h2>
-            {
+            {/* {
               EDUCATIONS.map(({ level, board }) => <>
                 <h4>
                   {level}
@@ -111,7 +101,7 @@ export default class Resume extends React.Component {
                 <p>{board}</p>
               </>
               )
-            }
+            } */}
           </div>
 
           <hr className="hr" />
