@@ -69,6 +69,7 @@ export default class Resume extends React.Component {
         <div className="address">
           <div className="para-content">
             <div>
+            <h2 className="edu-title">EDUCATIONS</h2>
               {
                 EDUCATIONS.map(({ level, board }) => <>
                   <h4>
@@ -92,7 +93,7 @@ export default class Resume extends React.Component {
                 SCSS, Tailwindcss, Git
               </p>
             </div>
-            <h2 className="edu-title">EDUCATIONS</h2>
+            {/* <h2 className="edu-title">EDUCATIONS</h2> */}
             {/* {
               EDUCATIONS.map(({ level, board }) => <>
                 <h4>
